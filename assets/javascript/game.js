@@ -29,6 +29,7 @@ document.onkeypress = function (event) {
         {
         if (userGuess === computerChoice) {
             wins++;
+            remaining = 15;
         }
         else if (userGuess !== computerChoice) {
             remaining--;
