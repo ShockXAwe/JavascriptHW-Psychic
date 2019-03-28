@@ -3,15 +3,14 @@
 var possibleLetters = Array = ("abcdefghijklmnopqrstuvwxyz").split("");
 // Created seperate var to check if sharing the same array would be an issue...it wasn't..
 var computerPossibleLetters = Array = ("abcdefghijklmnopqrstuvwxyz").split("");
-console.log(possibleLetters)
+// console.log(possibleLetters)
 var answer = [];
 var remaining = 15;
 var wins = 0;
 var lost = 0;
 // Variables that hold references to the places in the HTML where it displays things
 var directionsText = document.getElementById("directions-text");
-console.log(directionsText)
-var answerText = document.getElementById("answer-text");
+// console.log(directionsText)
 var remainingText = document.getElementById("remainingGuesses-text");
 var incorrectText = document.getElementById("incorrectGuesses-text");
 var winsText = document.getElementById("wins-text");
