@@ -31,11 +31,11 @@ document.onkeyup = function (event) {
         }
 
         // Hides directions once user types
-    directionsText.textContent = "";
-    answerText.textContent = computerChoice
-    remainingText.textContent = "Remaining guesses: " + remaining;
-    winsText.textContent = "Total wins: " + wins;
-    lostText.textContent = "Total losses: " + lost;
+        directionsText.textContent = "";
+        answerText.textContent = computerChoice
+        remainingText.textContent = "Remaining guesses: " + remaining;
+        winsText.textContent = "Total wins: " + wins;
+        lostText.textContent = "Total losses: " + lost;
     }
 
 }
